@@ -31,13 +31,17 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var binding : ActivityMainBinding
 
-    private val clientID = "AbWsdEWvlCMYOxFC-CIiFBgjE-epUB2toxpN2LnX1qgEiscKJM0NOuViBrOlgmYf1PT9vGf7IDT1PaxL"
+    private val clientID = "" // add yours
 
-    private val secretID = "EG3Q5W8RwzTC6JCmxrgYpZbIgN2rKS--FAIKk18OHU5CVJhXElPxoLKOcxRUjXCJNMwQ5nT_NEgEB53T"
+    private val secretID = "" // add yours
 
     companion object {
          const val TAG = "MyTag"
          const val REQUEST_CODE_PAYPAL = 99
+
+//        const val returnUrl = "your package name://paypaldemo"
+//        const val cancelUrl = "your package name://cancel"
+
          const val returnUrl = "com.example.paypalsdktest://paypaldemo"
          const val cancelUrl = "com.example.paypalsdktest://cancel"
 
