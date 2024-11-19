@@ -16,4 +16,4 @@ Capture successful payments via the PayPal API.
 
 # Requirements
 PayPal Sandbox clientID and secretID.
-Android Networking Library for API calls. (Optionl you can use retrofit or volley)
+and Android Networking Library for API calls. (Optional you can use retrofit or volley)
